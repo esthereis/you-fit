@@ -1,0 +1,90 @@
+.home-page {
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  font-size: 80px;
+  width: 444px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  height: 431px;
+  width: 647px;
+}
+
+.upper-hr {
+  margin-bottom: 76px;
+}
+
+.lower-hr {
+  margin-top: 40px;
+}
+
+.about-button {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button-empty {
+  font-size: 18px;
+
+  background: none;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-empty:hover {
+  text-decoration: underline;
+  text-decoration-color: #ea753b;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 10px;
+}
+
+.squared-button {
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+  margin-top: 34px;
+
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.squared-button:hover {
+  background-color: #6a4c9c;
+  border: none;
+  color: #ffffff;
+}
+
+.orange-button {
+  background-color: #ea753b;
+  color: #ffffff;
+
+  margin-left: 44px;
+  border: none;
+}
+
+.outline-button {
+  background-color: transparent;
+  border: 1px solid black;
+}
