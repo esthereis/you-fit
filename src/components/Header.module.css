@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.about-button {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 60px;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+
+  margin-right: 55px;
+  gap: 20px;
+}
+
+.fitTitle {
+  z-index: 1;
+}
+
+.check-icon {
+  position: absolute;
+  right: 24px;
+}
+
+.button-empty {
+  font-size: 18px;
+
+  background: none;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-empty:hover {
+  text-decoration: underline;
+  text-decoration-color: #ea753b;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 10px;
+}

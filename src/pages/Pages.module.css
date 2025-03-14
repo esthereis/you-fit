@@ -1,0 +1,9 @@
+.pages {
+  height: 100%;
+}
+
+.imageTheme {
+  height: 349px;
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,12 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Home from "./pages/Home";
+import Pages from "./pages/Pages";
 
 function App() {
   return (
     <>
       <Routes>
-        <Route index element={<Home />} />
+        <Route index element={<Pages />} />
       </Routes>
     </>
   );

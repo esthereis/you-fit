@@ -1,0 +1,52 @@
+h1 {
+  width: 444px;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+
+  gap: 66px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image {
+  height: 431px;
+  width: 647px;
+}
+
+.squared-button {
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+  margin-top: 34px;
+
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.squared-button:hover {
+  background-color: #6a4c9c;
+  border: none;
+  color: #ffffff;
+}
+
+.orange-button {
+  background-color: #ea753b;
+  color: #ffffff;
+
+  margin-left: 44px;
+  border: none;
+}
+
+.outline-button {
+  background-color: transparent;
+  border: 1px solid #000000;
+}
